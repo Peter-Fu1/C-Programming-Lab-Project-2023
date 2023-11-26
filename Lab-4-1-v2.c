@@ -9,12 +9,12 @@ int main()
 
     for(int i=0;i<row;i++)
     {
-        printf("请输入第%d行的%d个的元素 (中间以空格隔开): ", i+1, column);
         for(int j=0; j<column;j++){
+            printf("请输入第%d行第%d列的元素: ", i+1, j+1);
             scanf("%d", &a[i][j]);
         }
     }
-    //提示用户逐行输入二维数组的元素
+    //提示用户逐个输入二维数组的元素
 
      printf("输入的二维数组是:\n");
 
